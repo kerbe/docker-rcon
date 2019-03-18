@@ -16,4 +16,4 @@ WORKDIR /home/rcon
 
 COPY --from=0 rcon/rcon .
 
-CMD ["./rcon"]
+ENTRYPOINT ["./rcon"]
